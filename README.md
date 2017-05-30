@@ -3,7 +3,7 @@ My practice exercises in freecodecamp along with all my efforts and resources I 
 
 -------------
 ## Front End Development
-------------- 
+
 ### HTML & CSS
     1 Say Hello to HTML Elements
     2 Headline with the h2 Element
@@ -19,4 +19,3 @@ My practice exercises in freecodecamp along with all my efforts and resources I 
     12 Change the Font Size of an Element
     13 Set the Font Family of an Element
     14 Import a Google Font
-    
