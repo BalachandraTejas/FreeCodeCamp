@@ -19,3 +19,8 @@ My practice exercises in freecodecamp along with all my efforts and resources I 
     12 Change the Font Size of an Element
     13 Set the Font Family of an Element
     14 Import a Google Font
+
+## Advanced Front End Development Projects
+    1 Build a JavaScript Calculator
+    2 Build a Pomodoro Clock
+    3 Build a Tic Tac Toe Game

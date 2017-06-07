@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../common/bootstrap.min.css">
+    </head>
+    
+    <body class="container">
+
+    <!--
+        
+    1. User Story: I can play a game of Tic Tac Toe with the computer.
+
+    2. User Story: My game will reset as soon as it's over so I can play again.
+
+    3. User Story: I can choose whether I want to play as X or O. -->
+    <style>
+        .game .btn { min-height: 66px; }
+        .row { margin-bottom: 10px; }
+        .btn-primary { 
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
+/*        .game { visibility: hidden; }*/
+    </style>
+
+        
+    <div class="selection">
+        <h3>Choose your symbol</h3>
+        <span><button class="btn btn-primary">X</button></span>
+        <span><button class="btn btn-primary">O</button></span>
+    </div>
+
+
+    <h1>Tic Tac Toe</h1>
+    <div class="game">
+        <div class="row">
+            <div class="col border-top-0">
+                <div class="card">
+                    <button type="button" id="r1c1" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r1c2" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r1c3" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r2c1" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r2c2" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r2c3" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r3c1" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r3c2" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" id="r3c3" class="btn">
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 id="message"></h2>
+        </div>
+    </div>
+        
+
+
+<!-- JS -->
+    <script type="text/javascript" src="../common/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../common/bootstrap.min.js"></script>
+    <script type="text/javascript" src="ticTacToe.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,125 @@
+:root {
+  --ob-radius: 120px;
+    font-family: Exo;
+    transition: all 0.3s ease-in-out;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto
+}
+.text-center {
+    text-align: center;
+}
+.simon-board {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+.btn {
+    height:190px;
+    width: 190px;
+    position: absolute;
+/*    border-radius: 80px;*/
+    border: 5px solid #000
+}
+.green {
+    background-color: green;
+    border-top-left-radius: var(--ob-radius);
+}
+.green:active {
+    background-color: lawngreen;
+}
+.blue {
+    background-color: darkblue;
+    right: 0;
+    border-top-right-radius: var(--ob-radius);
+}
+.blue:active {
+    background-color: blue;
+}
+.yellow {
+    background-color: goldenrod;
+    bottom: 0;
+    border-bottom-left-radius: var(--ob-radius);
+}
+.yellow:active {
+    background-color: yellow;
+}
+.red {
+    background-color: darkred;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: var(--ob-radius);
+}
+.red:active {
+    background-color: red;
+}
+.interface {
+    height: 220px;
+    width: 220px;
+    border: 10px solid #000;
+    border-radius: 100%;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+.digital-display {
+    height: 50px;
+    width: 90px;
+/*    font-family: monospace;*/
+    left: 60px;
+    top: 30px;
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    color:red;
+    line-height: 45px;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 2em;
+}
+.reset,.strict {
+    background-color: red;
+    height:20px;
+    width: 20px;
+    border-radius: 100%;
+    top: 115px;
+    left: 50px;
+    border: 5px solid #000;
+    position: inherit;
+    box-shadow: 3px 3px 5px #888888;
+}
+.strict {
+    left: 140px;
+    background-color: yellow;
+}
+.strict:active,.reset:active {
+    box-shadow: none;
+}
+.start-indicator,.strict-indicator {
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    background-color: red;
+    position: absolute;
+    top: 95px;
+    right: 60px;
+}
+.start-indicator {
+    background-color: black;/*lime;*/
+    left: 60px;
+}
+#reset-label, #strict-label {
+    position: absolute;
+    top: 155px;
+    left: 45px;
+    line-height: 0.6;
+    font-size: 0.7em;
+}
+#strict-label {
+    left: 135px;
+}
